@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import folium 
+
 # Crear datos de ejemplo
 datos = pd.DataFrame({
     'Fecha': pd.date_range(start='2022-01-01', periods=100),
